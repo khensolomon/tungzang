@@ -68,19 +68,25 @@ p{
 &.format-audio {
 }
 &.format-chat {
-  p {
-    background-color:rgba(211,223,236,0.2);
-    box-shadow:inset 0px 0px 1px 1px rgba(110,19,24,0.1);
-    border-radius: 3px;
-    padding: 7%;
-    &:nth-child(odd) {
-      // color: red;
-      text-align: right;
-    }
-    &:nth-child(even) {
-      // color:green;
-      text-align: left;
-      background-color:rgba(211,223,236,0.4);
+  div {
+    >div {
+      > div {
+        > p {
+          background-color:rgba(211,223,236,0.2);
+          box-shadow:inset 0px 0px 1px 1px rgba(110,19,24,0.1);
+          border-radius: 3px;
+          padding: 7%;
+          &:nth-child(odd) {
+            // color: red;
+            text-align: right;
+          }
+          &:nth-child(even) {
+            // color:green;
+            text-align: left;
+            background-color:rgba(211,223,236,0.4);
+          }
+        }
+      }
     }
   }
 }

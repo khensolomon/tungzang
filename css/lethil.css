@@ -207,6 +207,8 @@ footer.container-fluid {
       border-radius: 2px;
       background-color: rgba(211, 223, 236, 0.1);
       box-shadow: inset 0px 1px 1px 0px rgba(107, 138, 157, 0.4); }
+  .container-fluid.page .about-us h1, .container-fluid.page .about-us h2, .container-fluid.page .about-us h3 {
+    text-align: center; }
   .container-fluid.blog main {
     -webkit-align-items: baseline;
     align-items: baseline; }
@@ -293,14 +295,14 @@ footer.container-fluid {
   .container-fluid.verso.post.has-post-thumbnail p {
     display: inline;
     background-color: rgba(211, 223, 236, 0.2); }
-  .container-fluid.verso.post.format-chat p {
+  .container-fluid.verso.post.format-chat div > div > div > p {
     background-color: rgba(211, 223, 236, 0.2);
     box-shadow: inset 0px 0px 1px 1px rgba(110, 19, 24, 0.1);
     border-radius: 3px;
     padding: 7%; }
-    .container-fluid.verso.post.format-chat p:nth-child(odd) {
+    .container-fluid.verso.post.format-chat div > div > div > p:nth-child(odd) {
       text-align: right; }
-    .container-fluid.verso.post.format-chat p:nth-child(even) {
+    .container-fluid.verso.post.format-chat div > div > div > p:nth-child(even) {
       text-align: left;
       background-color: rgba(211, 223, 236, 0.4); }
   .container-fluid.verso.post.format-quote {

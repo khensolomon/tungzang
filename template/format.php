@@ -52,8 +52,8 @@ $imagesCulumn = ceil(12/$imagesTotal);
 				<?php the_excerpt(); ?>
 			</div>
 		<?php else: ?>
-			<div class="col col-md-8 col-sm-12 offset-md-2 text-justify">
-				<h2><?php the_title(); ?></h2>
+			<div class="col col-md-8 col-sm-12 offset-md-2">
+				<h3 class="text-center"><?php the_title(); ?></h2>
 				<?php the_content(); ?>
 			</div>
 		<?php endif; ?>
