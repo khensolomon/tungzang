@@ -1,2 +1,1 @@
-# tungzang
-Tungzang Global Association
+# Tungzang Global Association
