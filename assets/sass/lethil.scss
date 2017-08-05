@@ -1,0 +1,49 @@
+
+$primary-color: #6e1318;
+// rgb(110,19,24)
+$active-color: #d9534f;
+// rgb(217,83,79)
+@import "lethil.Common";
+@import "lethil.Nav";
+@import "lethil.Navbar";
+@import "lethil.Social";
+@import "lethil.Footer";
+@import "lethil.Other";
+
+// NOTE: container
+.container-fluid {
+  padding-top:1%; padding-bottom:1%;
+  // REVIEW: Background image
+  &.has-post-thumbnail {
+    background-position: top center;background-size: cover;background-repeat: no-repeat;
+  }
+  // REVIEW: Page
+  &.page {
+    // padding-top:2%;padding-bottom:5%;
+    @import 'containerFluid.page';
+  }
+  // REVIEW: Blog
+  &.blog {
+    @import 'containerFluid.blog';
+  }
+  // REVIEW: Verso
+  &.verso {
+    &.post {
+      @import 'containerFluid.verso';
+    }
+  }
+  &.single {
+    @import 'containerFluid.single';
+  }
+  // REVIEW: Photo Galleries
+  &.galleries {
+    padding-top:1%;
+    padding-bottom:1%;
+    @import 'containerFluid.galleries';
+  }
+  // REVIEW: Photo Albums
+  &.albums {
+    @import 'containerFluid.albums';
+  }
+  // REVIEW: other
+}

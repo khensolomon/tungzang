@@ -1,0 +1,19 @@
+// NOTE: Custom
+@media (max-width: 355px) {
+  img.custom-logo {
+    width:70%;
+    padding-top:1%;
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+}
+
+// NOTE: Form
+/*
+.form-control, .input-group-addon, .contact-submit {border-radius: 0;}
+.form-control, .input-group-addon{border-color: #ccdce9;}
+.input-group {margin-top: 1%; margin-bottom: 1%;}
+.input-group-addon {background-color: #f0f5f9; color:#a0adb7;}
+.input-group-addon sup {color:#359ff4;}
+*/

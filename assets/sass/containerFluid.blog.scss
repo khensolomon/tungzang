@@ -1,0 +1,87 @@
+main {
+  -webkit-align-items: baseline; 	align-items: baseline;
+  div {
+    article {
+      // background-color: cornflowerblue;
+      display: block; margin: 10px auto;
+      box-shadow:
+          0 1px 1px rgba(0,0,0,0.15), // The top layer shadow
+          0 10px 0 -5px #eee, // The second layer
+          0 10px 1px -4px rgba(0,0,0,0.15), // The second layer shadow
+          0 20px 0 -10px #e9f0f5, // The third layer
+          0 20px 1px -9px rgba(0,0,0,0.15); // The third layer shadow
+      &.post {
+        &.has-post-thumbnail {
+          background-color: #f8f8f8;
+        }
+        &.format-aside {
+          background-color: #fcfcfc;
+        }
+        &.format-audio {
+          background-color: #f5f7eb;
+        }
+        &.format-chat {
+          background-color: #e9eafa;
+        }
+        &.format-gallery {
+          background-color: #e2f5f8;
+        }
+        &.format-image {
+          background-color: #f4e2f8;
+        }
+        &.format-link {
+          background-color: #f8e3e2;
+        }
+        &.format-quote {
+          background-color: #e2f6f8;
+        }
+        &.format-status {
+          background-color: #eef0f0;
+        }
+        &.format-video {
+          background-color: #edf5f6;
+        }
+        &.status-private {
+          background-color: #f3edee;
+        }
+      }
+      header {
+        padding: 2px 3%;
+        box-shadow: 0px -2px 1px 0px rgba(0,0,0,0.10);
+        h2 {
+          margin: 0;
+          font-weight: normal;
+          a {
+            color: #1f7ec0; font-size:60%; line-height: normal; text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+            &.post-edit-link {
+              display:none;
+            }
+          }
+          &:hover {
+            a {
+              &:hover {
+                text-decoration: none; color: #5d89a8; text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+              }
+              &.post-edit-link{
+                display: inline-block; background-color: #5e98d9; border-radius: 2px; color: #fff; 	margin:0 1%; padding:0 2px;
+              }
+            }
+          }
+        }
+      }
+      .entry-content {
+        padding: 5px 3%;
+        p {
+          // overflow: hidden;
+          // text-overflow: ellipsis;
+          &::first-letter {
+            color: #b0b3b5; font-weight: bold;
+          }
+        }
+      }
+      footer {
+        padding: 3px 3%;
+      }
+    }
+  }
+}

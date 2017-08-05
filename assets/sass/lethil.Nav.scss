@@ -1,0 +1,31 @@
+nav {
+  // REVIEW: Pagination
+  &.navigation{
+    &.pagination {
+      div {
+        * {
+          display: inline-block;background-color: $primary-color;padding: 7px 15px;color: #FFFFFF;
+          &:hover, &:focus {
+            // background-color: #0180ff;
+            background-color: lighten($primary-color,10%);
+          }
+        }
+        span {
+          &.dots{
+            background-color: transparent;padding: 7px 3px;color: #0180ff;
+          }
+          &.current {
+            // background-color: #0180ff;
+            background-color: $active-color;
+          }
+        }
+        a {
+          text-decoration: none;
+          &.prev {}
+          &.next {}
+        }
+      }
+      h2 {display: none;}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.container{
+  // color: #4784af;text-shadow: 0 1px 2px rgba(206,217,225,0.6);
+  h1 {
+    // color: #43719e;
+    // color: darken(#6e1318,4%);
+    // padding: 3% 1% 10% 1%;
+  }
+  p {
+    // color: #447495;
+    // color: lighten(#6e1318,4%);
+  }
+  em {
+    // color: #8f8582; text-shadow:#7b2409;
+  }
+  blockquote {
+    border-left: 0;
+    p {
+      display: inline-block; content: no-open-quote; padding: 3%; border-radius: 2px;
+      background-color:rgba(211,223,236,0.1); box-shadow:inset 0px 1px 1px 0px rgba(107,138,157,0.4);
+    }
+  }
+}
+&.has-post-thumbnail{
+  .container{
+    // color: #fff; text-shadow: 0 1px 2px rgba(19,111,225,0.6);
+  }
+  p{
+    // display:inline; background-color:rgba(211,223,236,0.2); color:#fff;
+  }
+}

@@ -1,0 +1,76 @@
+&.post {
+  article {
+    img {
+      padding:5px;
+      &.alignleft {
+        margin-right:3%;
+        float: left;
+      }
+      &.alignright {
+        float: right;
+        margin-left: 3%;
+      }
+    }
+    .row {
+      >div {
+        img {
+        }
+      }
+    }
+  }
+  &.has-post-thumbnail {
+    background-position: top center;
+    // background-size: contain;
+    background-size: cover;
+    // background-repeat: no-repeat;
+    article {
+      padding: 5% 10%;
+      font-size: 1.8em;
+      text-align: center;
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(19,111,225,0.6);
+      p {
+
+      }
+    }
+  }
+  // NOTE: format-standard
+  &.format-standard {}
+  // NOTE: format-aside
+  &.format-aside {}
+  // NOTE: format-audio
+  &.format-audio {}
+  // NOTE: format-chat
+  &.format-chat {}
+  // NOTE: format-gallery
+  &.format-gallery {}
+  // NOTE: format-image
+  &.format-image {}
+  // NOTE: format-link
+  &.format-link {}
+  // NOTE: format-quote
+  &.format-quote {
+    background-color: #a6c4e0;
+    text-align: center;
+    article {
+      padding: 3%;
+      font-size: 1.5em;
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(19,111,225,0.6);
+      ol {
+        text-align: center; list-style-position: inside;
+      }
+    }
+  }
+  // NOTE: format-status
+  &.format-status {}
+  // NOTE: format-video
+  &.format-video {}
+  // NOTE: status-private
+  &.status-private {}
+}
+// REVIEW: Single galleries
+&.galleries {
+  padding-top:1%;
+  padding-bottom:1%;
+}

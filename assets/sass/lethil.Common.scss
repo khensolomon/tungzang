@@ -1,0 +1,11 @@
+body {
+  // background-color: darken($primary-color,10%);
+  // > div.container-fluid:not(footer), > div.navbar {
+  //   background-color:#fff;
+  // }
+  > div {
+    &.container-fluid:not(footer), &.navbar {
+      background-color:#fff;
+    }
+  }
+}
